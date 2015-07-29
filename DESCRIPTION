@@ -5,7 +5,7 @@ Version: 0.0.1
 Date: 2015-07-29
 Author: Hajk-Georg Drost
 Maintainer: Hajk-Georg Drost <hajk-georg.drost@informatik.uni-halle.de>
-  Description: Comparative transcriptomics studies enable to investigate the conservation and variability of gene expression levels between tissues or biological processes of related species. This package aims to provide users with easy to use methods as well as an visualization framework to perform comparative transcriptomics studies with R. 
+Description: Comparative transcriptomics studies enable to investigate the conservation and variability of gene expression levels between tissues or biological processes of related species. This package aims to provide users with easy to use methods as well as an visualization framework to perform comparative transcriptomics studies with R. 
 VignetteBuilder: knitr
 NeedsCompilation: yes
 License: GPL-3
