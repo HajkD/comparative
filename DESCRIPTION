@@ -1,0 +1,32 @@
+Package: comparative
+Type: Package
+Title: Comparative Transcriptomics with R
+Version: 0.0.1
+Date: 2015-07-29
+Author: Hajk-Georg Drost
+Maintainer: Hajk-Georg Drost <hajk-georg.drost@informatik.uni-halle.de>
+  Description: Comparative transcriptomics studies enable to investigate the conservation and variability of gene expression levels between tissues or biological processes of related species. This package aims to provide users with easy to use methods as well as an visualization framework to perform comparative transcriptomics studies with R. 
+VignetteBuilder: knitr
+NeedsCompilation: yes
+License: GPL-3
+Depends: 
+  R (>= 3.1.1)
+Imports: 
+myTAI (>= 0.2.1),  
+dplyr (>= 0.3.0),
+RColorBrewer (>= 1.1-2),
+methods (>= 3.1.1),
+graphics (>= 3.1.1),
+stats (>= 3.1.1),
+grDevices (>= 3.1.1),
+utils (>= 3.1.1),
+reshape2 (>= 1.4.1),
+ggplot2 (>= 1.0.1)
+Suggests: 
+  knitr (>= 1.6),
+rmarkdown (>= 0.3.3),
+devtools (>= 1.6.1),
+testthat (>= 0.9.1)
+LinkingTo: Rcpp
+URL: https://github.com/HajkD/comparative
+BugReports: https://github.com/HajkD/comparative/issues
