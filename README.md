@@ -11,7 +11,7 @@ transcriptomics studies with R.
 
 These tutorials will get you started with this package:
 
--
+- [Introduction](https://github.com/HajkD/comparative/blob/master/vignettes/Introduction.Rmd)
 -
 -
 
