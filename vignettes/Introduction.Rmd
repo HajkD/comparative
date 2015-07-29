@@ -41,7 +41,7 @@ framework to perform comparative transcriptomics studies investigating:
 For the latter subject, the quantification of evolutionary relationships between genes is based
 on the [myTAI](https://github.com/HajkD/myTAI) and [orthologr](https://github.com/HajkD/orthologr) packages.
 
-Generally, the quantification of expression level similarity or divergence is performed by
+Generally, the quantification of expression level similarity or divergence is based on
 the [philentropy](https://github.com/HajkD/philentropy) package.
 
 ## Data Structures and Data Representation
