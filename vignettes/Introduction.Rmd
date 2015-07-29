@@ -1,0 +1,52 @@
+---
+title: "Introduction to the `comparative` package"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\usepackage[utf8]{inputenc}
+---
+
+```{r, echo = FALSE, message = FALSE}
+options(width = 750)
+knitr::opts_chunk$set(
+  comment = "#>",
+  error = FALSE,
+  tidy = FALSE)
+```
+
+## Getting Started
+
+
+Comparative transcriptomics within an evolutionary context relies on the detection of orthologous genes and synchronous transcriptomes. These methods capture evolutionary signals based on expression profile conservation of orthologous genes. Methodologically, comparative transcriptomic methods are based on the orthology function conjecture postulating that orthologous genes carry out biologically equivalent functions in different organisms whereas by contrast, the functions of paralogous genes typically diverge after duplication (Koonin, 2005; Studer and Robinson-Rechavi, 2009 ; Gabaldon and Koonin, 2013).
+
+Besides this orthology function conjecture comparative transcriptomics furthermore assumes that biologically equivalent functions in different organisms are most likely conserved in cases where orthologous genes show similar patterns of gene expression. This assumption of expression pattern conservation is based on scientific observations correlating changes or conservation of expression patterns to developmental differences or similarities (Raff, 2000; Carroll, 2005, Levin and Davidson, 2005; Romero et al., 2012; Warnefors and Kaessmann, 2013; Nesculea and Kaessmann, 2014; Roux et al., 2015).
+
+In the past few years several groups performed studies on the phenotypic implications of transcriptome similarity between species. However, it remains to be tested which case of phenotypic implication can be generalized: correlations between higher transcriptome similarity and convergent structures, or higher transcriptome similarity and homologous structures (Roux et al, 2015).
+
+For developmental studies, this approach heavily relies on the synchronization of developmental events accounting for heterochronic effects (= differences in the relative timing of developing organs between species) when comparing expression profiles across development (Dunn et al., 2013; Roux et al., 2015).
+
+In contrast, comparative transcriptomics addressing the investigation of tissue specific
+transcriptomes aim to detect expression level conservation or variation of genes within a species
+between different biological processes or tissues.
+
+Both approaches however rely on the quantification of gene expression conservation or variation.
+For this purpose, the `comparative` package aims to provide users with methods and a visualization
+framework to perform comparative transcriptomics studies investigating:
+
+- tissue specificity, variation, and conservation
+- evolutionary constraints of biological (e.g., developmental) processes
+
+For the latter subject, the quantification of evolutionary relationships between genes is based
+on the [myTAI](https://github.com/HajkD/myTAI) and [orthologr](https://github.com/HajkD/orthologr) packages.
+
+Generally, the quantification of expression level similarity or divergence is performed by
+the [philentropy](https://github.com/HajkD/philentropy) package.
+
+## Data Structures and Data Representation
+
+
+
+
+
