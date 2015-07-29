@@ -12,7 +12,9 @@ License: GPL-3
 Depends: 
   R (>= 3.1.1)
 Imports: 
-myTAI (>= 0.2.1),  
+myTAI (>= 0.2.1),
+orthologr (>= 0.0.1),
+philentropy (>= 0.0.1),
 dplyr (>= 0.3.0),
 RColorBrewer (>= 1.1-2),
 methods (>= 3.1.1),
